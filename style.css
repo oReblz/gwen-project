@@ -1,9 +1,14 @@
+:root{
+  --width-height: 50px;
+  --hallway-height: 25px;
+}
+
 body {
     background: #ccc;
     padding: 20px;
   }
   
-  .very-specific-design {
+  .map {
     width: 600px;
     height: 400px;
     padding: 50px;
@@ -23,14 +28,61 @@ body {
     background: #666;
     height: 400px;
   }
+
   
-  .ui-resizable-se {
-    width: 10px;
-    height: 10px;
-    background: orange;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-  
+.map{
+  width: 100%;
+  display: grid;
+  grid-template-columns:50px 50px 40px 10px 50px 25px 25px 20px 30px 50px 50px 50px 12px 50px 12px 12px 38px 50px 12px 12px 120px 12px 40px 40px;
+  grid-template-rows:40px 10px 50px 25px 25px 25px 18px 18px 18px 18px 25px  18px 50px 18px 20px 30px 50px 25px 25px;
+
+}
+.room{
+ height: 100%;
+ width: 100%;
+ border-style: solid;
+ border-color: black;
+ text-align: center;
+ border-width: 1px;
+ transition-duration: .3s;
  
+}
+
+.room:hover{
+  border-color: black;
+  background-color: #ccc;
+  border-style: solid;
+}
+
+.room a{
+  text-decoration: none;
+  color: black;
+  padding-top: 19px;
+}
+
+#room-30a{
+  grid-column: 5/7;
+  grid-row: 1;
+
+}
+
+#room-30b{
+  grid-column: 7/10;
+  grid-row: 1;
+
+}
+
+#room-21{
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+#room-23{
+  grid-column: 2;
+  grid-row: 3;
+}
+
+#room-25{
+  grid-column: 3/5;
+  grid-row: 3;
+}
