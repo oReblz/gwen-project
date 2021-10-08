@@ -42,18 +42,20 @@
  text-align: center;
  border-width: 1px;
  transition-duration: .3s;
+ --hover-color: black;
  
 }
 
 .room:hover{
   border-color: black;
-  background-color: #ccc;
+  background-color: rgb(29, 29, 29);
   border-style: solid;
+  --hover-color: white;
 }
 
 .room a{
   text-decoration: none;
-  color: black;
+  color: var(--hover-color);
   padding-top: 19px;
 }
 
