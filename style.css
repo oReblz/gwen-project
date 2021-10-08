@@ -86,3 +86,31 @@ body {
   grid-column: 3/5;
   grid-row: 3;
 }
+
+#room-22{
+  grid-column: 1/2;
+  grid-row: 5/7;
+}
+
+#room-24{
+  grid-column: 2/3;
+  grid-row: 5/7;
+}
+
+#room-26{
+  grid-column: 3/5;
+  grid-row: 5/7;
+}
+#room-32{
+  grid-column: 5/6;
+  grid-row: 5/8;
+}
+#media-center{
+  grid-column: 4/6;
+  grid-row: 8/14;
+}
+
+#room-11{
+  grid-column: 1/2;
+  grid-row: 14/16;
+}
